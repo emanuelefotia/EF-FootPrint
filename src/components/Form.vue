@@ -21,7 +21,8 @@
       </v-card>
       <br />
       <v-text-field
-      v-model="passengers">
+      type="number"
+      v-model="passengers" >
 
       </v-text-field>
       <v-select

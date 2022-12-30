@@ -8,7 +8,7 @@ export default createStore({
     from: {},
     to: {},
     results: {},
-    passengers: null,
+    passengers: "",
     class: ""
   },
   getters: {
