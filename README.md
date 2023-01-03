@@ -1,4 +1,4 @@
-# my-project
+# EF-FootPrint
 
 ## Project setup
 ```
