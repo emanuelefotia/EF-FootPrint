@@ -10,8 +10,8 @@ export function fetchFlightFootprints() {
         {
           from: this.from.iata_code,
           to: this.to.iata_code,
-          passengers: this.passengers,
-          class: this.class,
+          passengers: parseInt(this.passengers),
+          class: this.classes,
         },
       ],
     }),

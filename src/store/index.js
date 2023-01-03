@@ -9,7 +9,7 @@ export default createStore({
     to: {},
     results: {},
     passengers: "",
-    class: ""
+    classes: ""
   },
   getters: {
     getField,
