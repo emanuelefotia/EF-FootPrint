@@ -42,6 +42,11 @@
           <Form />
           <TheButton :fetch="fetch" />
         </v-col>
+        <TheResponse  
+        v-if="results.co2e"
+        :results="results"
+        :passengers="passengers"
+      />
       </div>
     </v-col>
   </v-row>
@@ -50,12 +55,14 @@
 <script>
 import Form from "@/components/Form.vue";
 import TheButton from "@/components/UI/TheButton.vue";
+import TheResponse from "@/components/UI/TheResponse.vue";
 
 export default {
-  props: ["fetch"],
+  props: ["fetch","results","passengers"],
   components: {
     Form,
-    TheButton,
+    TheButton,    
+    TheResponse,
   },
 };
 </script>
