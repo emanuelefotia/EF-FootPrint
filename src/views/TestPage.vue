@@ -3,7 +3,7 @@
   <v-row justify="center">
     <v-col align="center" cols="10" md="6">
       <CardGroup2 :fetch="fetchFlightFootprints" />
-      <TheResponse
+      <TheResponse  
         v-if="results.co2e"
         :results="results"
         :passengers="passengers"
